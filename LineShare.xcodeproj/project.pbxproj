@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77863CB6168E0367009E3673 /* linebutton_36x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77863CB5168E0367009E3673 /* linebutton_36x60@2x.png */; };
 		77C1CB36168DF2210017D48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1CB35168DF2210017D48E /* UIKit.framework */; };
 		77C1CB38168DF2210017D48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1CB37168DF2210017D48E /* Foundation.framework */; };
 		77C1CB3A168DF2210017D48E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1CB39168DF2210017D48E /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77863CB5168E0367009E3673 /* linebutton_36x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linebutton_36x60@2x.png"; sourceTree = "<group>"; };
 		77C1CB31168DF2210017D48E /* LineShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C1CB35168DF2210017D48E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		77C1CB37168DF2210017D48E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +85,7 @@
 		77C1CB3B168DF2210017D48E /* LineShare */ = {
 			isa = PBXGroup;
 			children = (
+				77863CB5168E0367009E3673 /* linebutton_36x60@2x.png */,
 				77C1CB44168DF2210017D48E /* YMAppDelegate.h */,
 				77C1CB45168DF2210017D48E /* YMAppDelegate.m */,
 				77C1CB4D168DF2220017D48E /* MainStoryboard.storyboard */,
@@ -164,6 +167,7 @@
 				77C1CB4A168DF2220017D48E /* Default@2x.png in Resources */,
 				77C1CB4C168DF2220017D48E /* Default-568h@2x.png in Resources */,
 				77C1CB4F168DF2220017D48E /* MainStoryboard.storyboard in Resources */,
+				77863CB6168E0367009E3673 /* linebutton_36x60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +298,7 @@
 				77C1CB57168DF2220017D48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
