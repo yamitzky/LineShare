@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77C1CB36168DF2210017D48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1CB35168DF2210017D48E /* UIKit.framework */; };
+		77C1CB38168DF2210017D48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1CB37168DF2210017D48E /* Foundation.framework */; };
+		77C1CB3A168DF2210017D48E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1CB39168DF2210017D48E /* CoreGraphics.framework */; };
+		77C1CB40168DF2210017D48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77C1CB3E168DF2210017D48E /* InfoPlist.strings */; };
+		77C1CB42168DF2210017D48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C1CB41168DF2210017D48E /* main.m */; };
+		77C1CB46168DF2210017D48E /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C1CB45168DF2210017D48E /* YMAppDelegate.m */; };
+		77C1CB48168DF2210017D48E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C1CB47168DF2210017D48E /* Default.png */; };
+		77C1CB4A168DF2220017D48E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C1CB49168DF2220017D48E /* Default@2x.png */; };
+		77C1CB4C168DF2220017D48E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C1CB4B168DF2220017D48E /* Default-568h@2x.png */; };
+		77C1CB4F168DF2220017D48E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C1CB4D168DF2220017D48E /* MainStoryboard.storyboard */; };
+		77C1CB52168DF2220017D48E /* YMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C1CB51168DF2220017D48E /* YMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77C1CB31168DF2210017D48E /* LineShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C1CB35168DF2210017D48E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77C1CB37168DF2210017D48E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77C1CB39168DF2210017D48E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77C1CB3D168DF2210017D48E /* LineShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LineShare-Info.plist"; sourceTree = "<group>"; };
+		77C1CB3F168DF2210017D48E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77C1CB41168DF2210017D48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77C1CB43168DF2210017D48E /* LineShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LineShare-Prefix.pch"; sourceTree = "<group>"; };
+		77C1CB44168DF2210017D48E /* YMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
+		77C1CB45168DF2210017D48E /* YMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
+		77C1CB47168DF2210017D48E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		77C1CB49168DF2220017D48E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		77C1CB4B168DF2220017D48E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		77C1CB4E168DF2220017D48E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		77C1CB50168DF2220017D48E /* YMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMViewController.h; sourceTree = "<group>"; };
+		77C1CB51168DF2220017D48E /* YMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C1CB2E168DF2210017D48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1CB36168DF2210017D48E /* UIKit.framework in Frameworks */,
+				77C1CB38168DF2210017D48E /* Foundation.framework in Frameworks */,
+				77C1CB3A168DF2210017D48E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C1CB26168DF2210017D48E = {
+			isa = PBXGroup;
+			children = (
+				77C1CB3B168DF2210017D48E /* LineShare */,
+				77C1CB34168DF2210017D48E /* Frameworks */,
+				77C1CB32168DF2210017D48E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C1CB32168DF2210017D48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C1CB31168DF2210017D48E /* LineShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C1CB34168DF2210017D48E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C1CB35168DF2210017D48E /* UIKit.framework */,
+				77C1CB37168DF2210017D48E /* Foundation.framework */,
+				77C1CB39168DF2210017D48E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77C1CB3B168DF2210017D48E /* LineShare */ = {
+			isa = PBXGroup;
+			children = (
+				77C1CB44168DF2210017D48E /* YMAppDelegate.h */,
+				77C1CB45168DF2210017D48E /* YMAppDelegate.m */,
+				77C1CB4D168DF2220017D48E /* MainStoryboard.storyboard */,
+				77C1CB50168DF2220017D48E /* YMViewController.h */,
+				77C1CB51168DF2220017D48E /* YMViewController.m */,
+				77C1CB3C168DF2210017D48E /* Supporting Files */,
+			);
+			path = LineShare;
+			sourceTree = "<group>";
+		};
+		77C1CB3C168DF2210017D48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C1CB3D168DF2210017D48E /* LineShare-Info.plist */,
+				77C1CB3E168DF2210017D48E /* InfoPlist.strings */,
+				77C1CB41168DF2210017D48E /* main.m */,
+				77C1CB43168DF2210017D48E /* LineShare-Prefix.pch */,
+				77C1CB47168DF2210017D48E /* Default.png */,
+				77C1CB49168DF2220017D48E /* Default@2x.png */,
+				77C1CB4B168DF2220017D48E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C1CB30168DF2210017D48E /* LineShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C1CB55168DF2220017D48E /* Build configuration list for PBXNativeTarget "LineShare" */;
+			buildPhases = (
+				77C1CB2D168DF2210017D48E /* Sources */,
+				77C1CB2E168DF2210017D48E /* Frameworks */,
+				77C1CB2F168DF2210017D48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LineShare;
+			productName = LineShare;
+			productReference = 77C1CB31168DF2210017D48E /* LineShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C1CB28168DF2210017D48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Yamitzky;
+			};
+			buildConfigurationList = 77C1CB2B168DF2210017D48E /* Build configuration list for PBXProject "LineShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77C1CB26168DF2210017D48E;
+			productRefGroup = 77C1CB32168DF2210017D48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C1CB30168DF2210017D48E /* LineShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C1CB2F168DF2210017D48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1CB40168DF2210017D48E /* InfoPlist.strings in Resources */,
+				77C1CB48168DF2210017D48E /* Default.png in Resources */,
+				77C1CB4A168DF2220017D48E /* Default@2x.png in Resources */,
+				77C1CB4C168DF2220017D48E /* Default-568h@2x.png in Resources */,
+				77C1CB4F168DF2220017D48E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C1CB2D168DF2210017D48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1CB42168DF2210017D48E /* main.m in Sources */,
+				77C1CB46168DF2210017D48E /* YMAppDelegate.m in Sources */,
+				77C1CB52168DF2220017D48E /* YMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77C1CB3E168DF2210017D48E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C1CB3F168DF2210017D48E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77C1CB4D168DF2220017D48E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C1CB4E168DF2220017D48E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C1CB53168DF2220017D48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77C1CB54168DF2220017D48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C1CB56168DF2220017D48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LineShare/LineShare-Prefix.pch";
+				INFOPLIST_FILE = "LineShare/LineShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77C1CB57168DF2220017D48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LineShare/LineShare-Prefix.pch";
+				INFOPLIST_FILE = "LineShare/LineShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C1CB2B168DF2210017D48E /* Build configuration list for PBXProject "LineShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C1CB53168DF2220017D48E /* Debug */,
+				77C1CB54168DF2220017D48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C1CB55168DF2220017D48E /* Build configuration list for PBXNativeTarget "LineShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C1CB56168DF2220017D48E /* Debug */,
+				77C1CB57168DF2220017D48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77C1CB28168DF2210017D48E /* Project object */;
+}
