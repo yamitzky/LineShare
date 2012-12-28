@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface YMViewController : UIViewController
+- (IBAction)shareViaLine:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
